@@ -1,6 +1,7 @@
-import Gladys, { logger } from '@gladysassistant/integration-sdk';
+import { Gladys, logger } from '@gladysassistant/integration-sdk';
 
 const gladys = new Gladys();
+
 
 // Variables qui contiendront la configuration de l'utilisateur
 let memosUrl = '';
