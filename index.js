@@ -1,6 +1,6 @@
-import { Gladys, logger } from '@gladysassistant/integration-sdk';
+import { GladysIntegration, logger } from '@gladysassistant/integration-sdk';
 
-const gladys = new Gladys();
+const gladys = new GladysIntegration();
 
 
 // Variables qui contiendront la configuration de l'utilisateur
